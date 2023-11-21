@@ -1,0 +1,24 @@
+//- Подключил шаблон с разметкой страницы
+extends doctypes.pug
+
+//- Изменил название страницы
+block doctype
+    //- Описание страницы в head discription
+    - var contentDiscription = 'Помогаем делать бизнес организованным и эффективным, бережно использовать ресурсы, выявлять и устранять потери.';
+    //- Наименование главной страницы
+    - var titleName = 'Внедрение СМК и идеологии бережливого производства/';
+    //- Массив с путями к файлам со стилями
+    - var stylePath = ['css/ip-style.css'];
+    //-- указывает поисковому роботу адрес главной страницы среди группы страниц дублей
+    - var canonical = '';
+
+
+//- Вставил блок с будующим контентом
+block content
+    include html/header.pug 
+    main
+        h1(class="visually-hidden h1-visually", style="visibility: hidden;").h1__visually Интернет-магазин комплектующих НКУ
+        
+    script(src="js/app.js", type="module")
+    script(src="js/modules/list-subsection.js", type='module')
+    

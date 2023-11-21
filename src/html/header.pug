@@ -1,0 +1,67 @@
+header
+    .container.header__container
+        //-- Навигацонная панель с правилами магазина и ссылками на телефоны и социальные сети
+        nav.header-nav
+            ul.header-nav__list
+                li.header-nav__item +7 (812) 921-59-71
+                li.header-nav__item |
+                li.header-nav__item 
+                    img(src="../img/icon-vk.svg", alt="Иконка вконтакте").header-social-icon
+                li.header-nav__item 
+                    img(src="../img/icon-telegram.svg", alt="Иконка телеграмм").header-social-icon
+                li.header-nav__item 
+                    img(src="../img/icon-whatsapp.svg", alt="Иконка вконтакте").header-social-icon
+            ul.header-nav__list.header-nav__list_tutorial
+                li.header-nav__item.header-nav__item_company ShopPing для юридических лиц
+                li.header-nav__item Способы доставки
+                li.header-nav__item Способы оплаты
+        //-- Блок с логотипом и иконками на разделы сайта личный кабинет, заказы и корзины
+        .control-block  
+            img(src="../img/ShopPing.svg", alt="Логотип интернет-интернет магазина ShopPing").logo
+            ul.control-list
+                li.control-list__item 
+                    img(src="../img/iconCompany.svg", alt="Бизнес-портфель").control-list__item_img
+                    .control-list__item_discr Компания
+                li.control-list__item 
+                    img(src="../img/order.svg", alt="Бизнес-портфель").control-list__item_img
+                    .control-list__item_discr Заказы
+                li.control-list__item.control-list__item_basket 
+                    img(src="../img/basket.svg", alt="Бизнес-портфель").control-list__item_img
+                    //-- Иконка с количеством покупок в корзине
+                    .quantity-shopping-icon(id="shopping-icon").shopping-icon__display-none 94
+                    .control-list__item_discr Корзина
+        //-- Блок с выпадающим списком каталога и формой для ввода запроса на поиск по каталогу
+        .search-block 
+            .search-block__catalog(id="catalog-block") Каталог товаров
+            form.search-block__form
+                input(type="search", name="search", placeholder="Поиск нужных комплектующих").search-block-form__text
+                button(type='submit', name="submit").search-block-form__botton_submit
+                    img(src="../img/serch.svg", alt="Кнопка поиска").search-botton__icon 
+        //-- Выпадающий блок с разделами каталога при нажатии на раздел сайта католог товаров
+        .search-block(id="catalog-list").search-block-subsection.search-block-none
+            ul.search-block-list
+                li(id="catalog-list_1").search-block-list__item Schneider
+                li.search-block-list__item ABB
+                li.search-block-list__item Siemens
+                li.search-block-list__item Phoenix Contact
+            ul(id="list-subsection_1").search-block-list_subsection.subsection-schneider
+                li.search-block-list_subsection__item Розетки-1
+                li.search-block-list_subsection__item Выключатели-1
+                li.search-block-list_subsection__item Контроллеры-1
+                li.search-block-list_subsection__item Контакторы-1
+            ul(id="list-abb").search-block-list_subsection.subsection-abb.list_subsection-none
+                li.search-block-list_subsection__item Розетки-abb
+                li.search-block-list_subsection__item Выключатели-abb
+                li.search-block-list_subsection__item Контроллеры-abb
+                li.search-block-list_subsection__item Контакторы-abb
+            ul(id="list-siemens").search-block-list_subsection.subsection-siemens.list_subsection-none
+                li.search-block-list_subsection__item Розетки-Siemens
+                li.search-block-list_subsection__item Выключатели-Siemens
+                li.search-block-list_subsection__item Контроллеры-Siemens
+                li.search-block-list_subsection__item Контакторы-Siemens
+            ul(id="list-phoenix").search-block-list_subsection.subsection-phoenix.list_subsection-none
+                li.search-block-list_subsection__item Розетки-Phoenix
+                li.search-block-list_subsection__item Выключатели-Phoenix
+                li.search-block-list_subsection__item Контроллеры-Phoenix
+                li.search-block-list_subsection__item Контакторы-Phoenix
+            

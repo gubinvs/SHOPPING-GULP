@@ -1,0 +1,238 @@
+//-- Подключение шрифтов
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+@import 'variables.scss';
+
+//-- сброс стилей
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  font-family: $font-textBady;
+}
+
+header {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+}
+
+.h1-min {
+  font-size: 0.1px;
+  line-height: 0.1px;
+}
+
+
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+//-- Убираю обводку у формы при наведении
+input {
+  outline: none;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}/*# sourceMappingURL=normalize.css.map */
+
+
+// -- основные стилы проекта
+::placeholder {
+  font-size: 20px;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: $font-textBady;
+  font-style: normal;
+}
+
+section,
+header,
+footer {
+  max-width: 1920px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  margin-bottom: 120px;
+}
+
+.container {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  // border: 1px solid red;
+}
+
+.h1__visually {
+    font-size: 0.1px;
+}
+
+a,
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* отображаем курсор в виде руки при наведении; некоторые
+  считают, что необходимо оставлять стрелочный вид для кнопок */
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// -- Ссылка на политику в области обработки персональных данных
+.pp-page {
+  font-size: 14px;
+  line-height: normal;
+}
+
+.pp-page:hover {
+  color: #000000;
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: normal;
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+      width: 800px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  section {
+    margin-bottom: 50px;
+  }
+
+  .container {
+    width: 640px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    width: 480px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+      width: 360px;
+  }
+}
+
+@import 'header.scss';
+
