@@ -1,8 +1,7 @@
 // Программы выводит список подразделов из разделов каталога при наведении мыши
 
-
-const section = document.getElementById('catalog-list_1'); // инициализация строки каталога
-const list = document.getElementById('list-subsection_1'); // инициализация списка каталога
+// const section = document.getElementById('catalog-list_1'); // инициализация строки каталога
+// const list = document.getElementById('list-subsection_1'); // инициализация списка каталога
 
 
 // функция реализующая выпадающий список при наведении кусора на строку
@@ -24,5 +23,3 @@ export function listDropDown (section, list) {
     });
 
 }
-
-listDropDown(section, list);
