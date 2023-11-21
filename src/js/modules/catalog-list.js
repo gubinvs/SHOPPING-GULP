@@ -1,6 +1,5 @@
 //-- Программа реализует открытие списка при нажатии на объект
 // событие клик по блоку с вопросом
-
 // const catalog = document.getElementById('catalog-block');
 // const catalogList = document.getElementById('catalog-list');
 
