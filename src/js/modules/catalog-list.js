@@ -11,4 +11,12 @@ export function catalogList (catalog, catList) {
             catList.className = "search-block search-block-subsection";
         } else catList.className = "search-block search-block-subsection search-block-none";
     });
+
+    // -- При нажатии мыши в теле окна браузера, проверяется не является ли нажатая облать областью меню каталог, если нет список каталога закрывается
+    window.addEventListener('click', e => {
+        var target = e.target;
+        if (target !== catalog) { // если это не блок каталог товаров, меню и список скрываются
+            catList.className = "search-block search-block-subsection search-block-none";
+        }
+    });
 }
