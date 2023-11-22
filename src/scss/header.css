@@ -233,3 +233,21 @@ header,
     flex-direction: row;
   }
 }
+@media only screen and (max-width: 640px) {
+  .logo {
+    width: 220px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .control-block,
+  .header-nav {
+    flex-direction: column;
+  }
+  .header-nav {
+    margin-bottom: 20px;
+  }
+  .logo {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+}

@@ -200,6 +200,19 @@ button {
     width: 640px;
   }
 }
+@media only screen and (max-width: 640px) {
+  section {
+    margin-bottom: 20px;
+  }
+  .container {
+    width: 480px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 360px;
+  }
+}
 .header-nav__list,
 .header-nav,
 .control-block,
@@ -433,5 +446,23 @@ header,
   }
   #catalog-list {
     flex-direction: row;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .logo {
+    width: 220px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .control-block,
+  .header-nav {
+    flex-direction: column;
+  }
+  .header-nav {
+    margin-bottom: 20px;
+  }
+  .logo {
+    width: 320px;
+    margin-bottom: 20px;
   }
 }
