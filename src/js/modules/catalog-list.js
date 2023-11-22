@@ -14,7 +14,7 @@ export function catalogList (catalog, catList) {
 
     // -- При нажатии мыши в теле окна браузера, проверяется не является ли нажатая облать областью меню каталог, если нет список каталога закрывается
     window.addEventListener('click', e => {
-        var target = e.target;
+        var target = e.target; // получаем элемент экрана, на который была нажата мышь
         if (target !== catalog) { // если это не блок каталог товаров, меню и список скрываются
             catList.className = "search-block search-block-subsection search-block-none";
         }
