@@ -229,4 +229,18 @@ header,
     .logo {
         width: 320px;
     }
+
+    .search-block {
+        flex-direction: column-reverse;
+    }
+
+    .search-block__catalog,
+    .search-block-form__text {
+        width: 100%;
+        height: 50px;
+    }   
+    
+    .search-block__form {
+        margin-bottom: 8px;
+    }
 }
