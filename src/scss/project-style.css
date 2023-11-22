@@ -192,6 +192,14 @@ button {
     width: 800px;
   }
 }
+@media only screen and (max-width: 800px) {
+  section {
+    margin-bottom: 50px;
+  }
+  .container {
+    width: 640px;
+  }
+}
 .header-nav__list,
 .header-nav,
 .control-block,
@@ -403,5 +411,8 @@ header,
     width: 436px;
     padding-right: 10px;
     padding-left: 10px;
+  }
+  .header-nav__item_company {
+    display: none;
   }
 }
