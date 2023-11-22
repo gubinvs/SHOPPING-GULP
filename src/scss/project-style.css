@@ -449,11 +449,6 @@ header,
   }
 }
 @media only screen and (max-width: 640px) {
-  .logo {
-    width: 220px;
-  }
-}
-@media only screen and (max-width: 480px) {
   .control-block,
   .header-nav {
     flex-direction: column;
@@ -466,6 +461,8 @@ header,
     width: 320px;
     margin-bottom: 20px;
   }
+}
+@media only screen and (max-width: 480px) {
   ::placeholder {
     font-size: 16px;
   }
