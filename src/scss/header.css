@@ -243,11 +243,15 @@ header,
   .header-nav {
     flex-direction: column;
   }
-  .header-nav {
+  .header-nav,
+  .header-nav__list:not(:last-of-type) {
     margin-bottom: 20px;
   }
   .logo {
     width: 320px;
     margin-bottom: 20px;
+  }
+  ::placeholder {
+    font-size: 16px;
   }
 }
