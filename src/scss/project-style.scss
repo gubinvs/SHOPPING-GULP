@@ -125,7 +125,7 @@ input {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: $colorBackgroundBody;
   font-family: $font-textBady;
   font-style: normal;
 }
@@ -156,11 +156,11 @@ section {
 
 a,
 a:visited {
-    color: #000000;
+    color: $colorText;
 }
 
 a:hover {
-    color: #000000;
+    color: $colorText;
 }
 
 button {
@@ -186,15 +186,13 @@ button {
 }
 
 .pp-page:hover {
-  color: #000000;
+  color: $colorText;
 }
 
 .copyright {
   font-size: 14px;
   line-height: normal;
 }
-
-
 
 @media only screen and (max-width: 1280px) {
   .container {
