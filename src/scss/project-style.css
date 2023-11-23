@@ -110,6 +110,9 @@ input {
     scroll-behavior: auto !important;
   }
 } 
+::-moz-placeholder {
+  font-size: 20px;
+} 
 ::placeholder {
   font-size: 20px;
 }
@@ -213,6 +216,18 @@ button {
     width: 360px;
   }
 }
+.header__container {
+  position: relative;
+}
+
+#catalog-list {
+  position: absolute;
+  top: 256px;
+  left: 0px;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
 .header-nav__list,
 .header-nav,
 .control-block,
@@ -463,7 +478,10 @@ header,
   }
 }
 @media only screen and (max-width: 480px) {
+  ::-moz-placeholder {
+    font-size: 16px;
+  }
   ::placeholder {
     font-size: 16px;
   }
-}
+}/*# sourceMappingURL=project-style.css.map */

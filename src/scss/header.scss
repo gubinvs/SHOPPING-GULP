@@ -1,5 +1,17 @@
 @import 'variables.scss';
 
+.header__container {
+    position: relative;
+}
+
+#catalog-list {
+    position: absolute;
+    top: 256px;
+    left: 0px;
+    flex-direction: row;
+    background-color: $colorBackgroundBody;
+}
+
 .header-nav__list,
 .header-nav,
 .control-block,
