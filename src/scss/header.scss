@@ -6,7 +6,7 @@
 
 #catalog-list {
     position: absolute;
-    top: 256px;
+    top: 220px;
     left: 0px;
     flex-direction: row;
     background-color: $colorBackgroundBody;
@@ -30,14 +30,17 @@
 }
 
 .header-nav,
-.control-block, 
-.control-list__item,
+.control-block,
 .search-block {
     justify-content: space-between;
 }
 
-.search-block-subsection {
+.search-block-subsection  {
     justify-content: flex-start;
+}
+
+.control-list__item {
+    justify-content: flex-end;
 }
 
 .search-block-form__text,
@@ -51,6 +54,10 @@
 .search-block-form__text,
 .search-block-form__botton_submit {
     align-items: center;
+}
+
+.control-block {
+    align-items: flex-end;
 }
 
 .search-block__catalog,
@@ -89,7 +96,7 @@ header,
 
 .header-nav__item:nth-child(3),
 .header-nav__item:nth-child(4) {
-    margin-right: 8px;
+    margin-right: 4px;
 }
 
 .header-nav,
@@ -99,7 +106,7 @@ header,
 }
 
 .header-nav {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .header-nav__item_company {
@@ -112,16 +119,17 @@ header,
     width: 20px;
 }
 
-.header-social-icon {
-    width: 24px;
-}
-
 .search-block-form__botton_submit {
     width: 60px;
 }
 
+.header-social-icon,
 .control-list__item_img {
-    width: 58px;
+    width: 32px;
+}
+
+.control-list__item_discr {
+    font-size: 14px;
 }
 
 .search-block-list,
@@ -135,6 +143,10 @@ header,
 
 .header-social-icon {
     height: 24px;
+}
+
+.control-list__item_img {
+    height: 32px;
 }
 
 .search-block__catalog,
@@ -182,16 +194,24 @@ header,
 .quantity-shopping-icon {
     position: absolute;
     top: -10px;
-    right: -5px;
+    right: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    border: 4px solid $colorBackgroundBody;
+    background-color: $colorBackgroundBody;
+}
+
+.quantity-shopping-icon__text {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 8px;
+    border-radius: 100%;
     background-color: $colorBackgroundIconBasket;
-    font-size: 12px;
     color: $colorBackgroundBody;
 }
 
@@ -242,7 +262,7 @@ header,
     }
 
     #catalog-list {
-        top: 306px;
+        top: 256px;
         left: 0px;
     }
 
@@ -267,7 +287,7 @@ header,
 
 @media only screen and (max-width: 640px) {
     #catalog-list {
-        top: 400px;
+        top: 366px;
         left: 0px;
     }
     

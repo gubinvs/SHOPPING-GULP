@@ -11,7 +11,7 @@ import { arrayListDropDown } from './modules/list-subsection.js';
 
 //-- Инициализация переменных по ID селектору, которую контролируем и меняем классы.
 const basket = document.getElementById('shopping-icon');                            // корзина
-const quantity = 0;                                                                 // Инициализируется переменная с количеством позиций в корзине
+const quantity = 1;                                                                 // Инициализируется переменная с количеством позиций в корзине
 const classDisplay = "quantity-shopping-icon";                                      // Инициализация переменной с классами по умолчанию для корзины
 const classNoneDisplay = "quantity-shopping-icon shopping-icon__display-none";      // Переменная с классами по умолчанию + класс скрывающих видимость иконки для корзины
 const catalog = document.getElementById('catalog-block');                           // каталог товаров
