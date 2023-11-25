@@ -109,6 +109,9 @@ input {
   outline: none;
 }
 
+
+
+
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -120,19 +123,39 @@ input {
 }/*# sourceMappingURL=normalize.css.map */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // -- основные стилы проекта
 ::placeholder {
-  font-size: 20px;
+  font-size: 16px;
 }
-
-
 
 body {
   background-color: $colorBackgroundBody;
   font-family: $font-textBady;
   font-style: normal;
 }
-
 
 section,
 header,
@@ -142,8 +165,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 section {
   margin-bottom: 120px;

@@ -111,7 +111,7 @@ input {
   }
 } 
 ::placeholder {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 body {
@@ -213,13 +213,17 @@ button {
     width: 360px;
   }
 }
+::placeholder {
+  color: #ffffff;
+}
+
 .header__container {
   position: relative;
 }
 
 #catalog-list {
   position: absolute;
-  top: 240px;
+  top: 210px;
   left: 0px;
   flex-direction: row;
   background-color: #ffffff;
@@ -388,6 +392,11 @@ header,
   color: #000000;
 }
 
+.control-list__item_discr,
+#catalog-block {
+  color: #575699;
+}
+
 .header-nav__item_company:hover {
   border: 0.5px solid #000000;
 }
@@ -407,7 +416,7 @@ header,
 .search-block__catalog,
 .search-block-form__text,
 .search-block-form__botton_submit {
-  background-color: #F0F0F0;
+  background-color: #EDEDED;
 }
 
 .search-block__catalog:hover,
@@ -440,8 +449,8 @@ header,
   padding-top: 6px;
   font-size: 8px;
   border-radius: 100%;
-  background-color: #18950D;
-  color: #ffffff;
+  background-color: #82BC87;
+  color: #000000;
 }
 
 .search-block-list__item {
@@ -465,6 +474,10 @@ header,
   }
 }
 @media only screen and (max-width: 1024px) {
+  #catalog-list {
+    top: 190px;
+    left: 0px;
+  }
   .logo {
     width: 320px;
   }
@@ -483,7 +496,7 @@ header,
 }
 @media only screen and (max-width: 800px) {
   #catalog-list {
-    top: 256px;
+    top: 245px;
     left: 0px;
   }
   .search-block {

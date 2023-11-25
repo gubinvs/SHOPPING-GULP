@@ -1,13 +1,16 @@
 @import 'variables.scss';
 
+::placeholder {
+    color: $colorBackgroundBody;
+}
+
 .header__container {
     position: relative;
 }
 
-
 #catalog-list {
     position: absolute;
-    top: 240px;
+    top: 210px;
     left: 0px;
     flex-direction: row;
     background-color: $colorBackgroundBody;
@@ -176,6 +179,11 @@ header,
     color: $colorText;
 }
 
+.control-list__item_discr,
+#catalog-block {
+    color: $colorLogo;
+}
+
 .header-nav__item_company:hover {
     border: .5px solid $colorText;
 }
@@ -230,7 +238,7 @@ header,
     font-size: 8px;
     border-radius: 100%;
     background-color: $colorBackgroundIconBasket;
-    color: $colorBackgroundBody;
+    color: $colorText;
 }
 
 .search-block-list__item {
@@ -256,8 +264,12 @@ header,
     }
 }
 
-@media only screen and (max-width: 1024px) {    
-    
+@media only screen and (max-width: 1024px) {  
+    #catalog-list {
+        top: 190px;
+        left: 0px;
+    }
+
     .logo {
         width: 320px;
     }
@@ -281,10 +293,8 @@ header,
 
 
 @media only screen and (max-width: 800px) {
-
-
     #catalog-list {
-        top: 256px;
+        top: 245px;
         left: 0px;
     }
 
