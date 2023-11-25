@@ -129,13 +129,13 @@ header,
     width: 32px;
 }
 
-.control-list__item_discr {
-    font-size: 14px;
-}
-
 .search-block-list,
 .search-block__catalog {
     width: 305px;
+}
+
+.logo {
+    width: 400px;
 }
 
 .search-botton__icon {
@@ -154,6 +154,10 @@ header,
 .search-block-form__text,
 .search-block-form__botton_submit {
     height: 50px;
+}
+
+.control-list__item_discr {
+    font-size: 14px;
 }
 
 .search-block__catalog,
