@@ -4,6 +4,7 @@
     position: relative;
 }
 
+
 #catalog-list {
     position: absolute;
     top: 240px;
@@ -162,6 +163,19 @@ header,
     font-size: 20px;
 }
 
+.header-nav__item {
+    color: $colorHeaderNavLink;
+}
+
+.header-nav__item:hover,
+.header-nav__item_company:hover {
+    color: $colorText;
+}
+
+.header-nav__item_company:hover {
+    border: .5px solid $colorText;
+}
+
 .search-block__catalog {
     background-image: url(../img/burger.svg);
     background-position: left 20px center;
@@ -243,7 +257,7 @@ header,
     .logo {
         width: 320px;
     }
-    
+
     .search-block-list,
     .search-block__catalog {
         width: 294px;
@@ -260,6 +274,7 @@ header,
         display: none;
     }
 }
+
 
 @media only screen and (max-width: 800px) {
 

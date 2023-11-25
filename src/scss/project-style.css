@@ -375,6 +375,19 @@ header,
   font-size: 20px;
 }
 
+.header-nav__item {
+  color: #696D70;
+}
+
+.header-nav__item:hover,
+.header-nav__item_company:hover {
+  color: #000000;
+}
+
+.header-nav__item_company:hover {
+  border: 0.5px solid #000000;
+}
+
 .search-block__catalog {
   background-image: url(../img/burger.svg);
   background-position: left 20px center;
