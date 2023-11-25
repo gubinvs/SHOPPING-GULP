@@ -6,7 +6,7 @@
 
 #catalog-list {
     position: absolute;
-    top: 220px;
+    top: 240px;
     left: 0px;
     flex-direction: row;
     background-color: $colorBackgroundBody;
@@ -238,7 +238,12 @@ header,
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {    
+    
+    .logo {
+        width: 320px;
+    }
+    
     .search-block-list,
     .search-block__catalog {
         width: 294px;
@@ -257,9 +262,7 @@ header,
 }
 
 @media only screen and (max-width: 800px) {
-    .logo {
-        width: 320px;
-    }
+
 
     #catalog-list {
         top: 256px;

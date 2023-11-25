@@ -4,7 +4,7 @@
 
 #catalog-list {
   position: absolute;
-  top: 220px;
+  top: 240px;
   left: 0px;
   flex-direction: row;
   background-color: #ffffff;
@@ -233,6 +233,9 @@ header,
   }
 }
 @media only screen and (max-width: 1024px) {
+  .logo {
+    width: 320px;
+  }
   .search-block-list,
   .search-block__catalog {
     width: 294px;
@@ -247,9 +250,6 @@ header,
   }
 }
 @media only screen and (max-width: 800px) {
-  .logo {
-    width: 320px;
-  }
   #catalog-list {
     top: 256px;
     left: 0px;
@@ -291,10 +291,7 @@ header,
   }
 }
 @media only screen and (max-width: 480px) {
-  ::-moz-placeholder {
-    font-size: 16px;
-  }
   ::placeholder {
     font-size: 16px;
   }
-}/*# sourceMappingURL=header.css.map */
+}
