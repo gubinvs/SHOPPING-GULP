@@ -313,7 +313,7 @@ header,
 
 .header-nav__item:nth-child(3),
 .header-nav__item:nth-child(4) {
-  margin-right: 4px;
+  margin-right: 0px;
 }
 
 .header-nav,
@@ -388,7 +388,8 @@ header,
 }
 
 .header-nav__item:hover,
-.header-nav__item_company:hover {
+.header-nav__item_company:hover,
+#catalog-block:hover {
   color: #000000;
 }
 
@@ -401,9 +402,17 @@ header,
   border: 0.5px solid #000000;
 }
 
+.search-block__catalog,
+.search-block__catalog:hover {
+  background-position: left 20px center;
+}
+
 .search-block__catalog {
   background-image: url(../img/burger.svg);
-  background-position: left 20px center;
+}
+
+.search-block__catalog:hover {
+  background-image: url(../img/burgerBlack.svg);
 }
 
 .search-block-form__text {
@@ -464,7 +473,8 @@ header,
   display: none;
 }
 
-.control-list__item_img {
+.control-list__item_img,
+.header-social-icon {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -484,7 +494,6 @@ header,
 
 .control-list__item_img1:hover {
   background-image: url(../img/iconCompanyBlack.svg);
-  color: #000000;
 }
 
 .control-list__item_img2:hover {
@@ -493,6 +502,38 @@ header,
 
 .control-list__item_img3:hover {
   background-image: url(../img/basketBlack.svg);
+}
+
+.control-list__item_discr:hover {
+  color: #000000;
+}
+
+.header-social-icon {
+  background-size: 18px;
+}
+
+.header-social-icon1 {
+  background-image: url(../img/icon-vk.svg);
+}
+
+.header-social-icon2 {
+  background-image: url(../img/icon-telegram.svg);
+}
+
+.header-social-icon3 {
+  background-image: url(../img/icon-whatsapp.svg);
+}
+
+.header-social-icon1:hover {
+  background-image: url(../img/icon-vk_black.svg);
+}
+
+.header-social-icon2:hover {
+  background-image: url(../img/icon-telegram_black.svg);
+}
+
+.header-social-icon3:hover {
+  background-image: url(../img/icon-whatsapp_black.svg);
 }
 
 @media only screen and (max-width: 1280px) {
