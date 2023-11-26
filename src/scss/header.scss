@@ -252,6 +252,27 @@ header,
     display: none;
 }
 
+
+
+.control-list__item_img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.control-list__item_img1 {
+    background-image: url(../img/iconCompany.svg);
+}
+
+.control-list__item_img2 {
+    background-image: url(../img/order.svg);
+}
+
+.control-list__item_img3 {
+    background-image: url(../img/basket.svg);
+}
+
+
 @media only screen and (max-width: 1280px) {
     .search-block-list,
     .search-block__catalog {
