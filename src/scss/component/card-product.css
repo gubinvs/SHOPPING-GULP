@@ -8,8 +8,9 @@
   height: 400px;
 }
 
-.card-product {
-  border: 1px solid #000000;
+.card-product:nth-child(1) {
+  border-right: 0.5px solid #D9D9D9;
+  border-bottom: 0.5px solid #D9D9D9;
 }
 
 .card-product__name {
@@ -32,7 +33,8 @@
 
 .card-product__name_title {
   text-align: center;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
   color: #4E80B6;
 }
 
@@ -45,18 +47,18 @@
 
 .card-product__discr_price {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-start;
 }
 
 .price {
-  font-family: "Prosto One", sans-serif;
-  font-size: 46px;
-  line-height: normal;
-  font-weight: 800;
-  margin-right: 20px;
+  font-family: "Oswald", sans-serif;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 600;
+  margin-right: 8px;
 }
 
 .ruble_sign_icon {
-  height: 32px;
+  height: 28px;
 }/*# sourceMappingURL=card-product.css.map */

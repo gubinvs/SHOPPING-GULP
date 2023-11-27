@@ -13,8 +13,9 @@
     height: 400px;
 }
 
-.card-product {
-    border: 1px solid #000000;
+.card-product:nth-child(1) {
+    border-right: 0.5px solid $colorBackgroundSearchHover;
+    border-bottom: 0.5px solid $colorBackgroundSearchHover;
 }
 
 .card-product__name {
@@ -37,11 +38,10 @@
 
 .card-product__name_title {
     text-align: center;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     color: $colorTextNameCard;
 }
-
-
 
 .card-product__discr {
     display: flex;
@@ -53,18 +53,18 @@
 
 .card-product__discr_price {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: flex-start;    
 }
 
 .price {
-    font-family: $font-family;
-    font-size: 46px;
-    line-height: normal;
-    font-weight: 800;
-    margin-right: 20px;
+    font-family: $font-price;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 600;
+    margin-right: 8px;
 }
 
 .ruble_sign_icon {
-    height: 32px;
+    height: 28px;
 }

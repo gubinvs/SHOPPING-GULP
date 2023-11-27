@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 /* Указываем box sizing */
 *,
 *::before,
@@ -631,8 +632,9 @@ header,
   height: 400px;
 }
 
-.card-product {
-  border: 1px solid #000000;
+.card-product:nth-child(1) {
+  border-right: 0.5px solid #D9D9D9;
+  border-bottom: 0.5px solid #D9D9D9;
 }
 
 .card-product__name {
@@ -655,7 +657,8 @@ header,
 
 .card-product__name_title {
   text-align: center;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
   color: #4E80B6;
 }
 
@@ -668,18 +671,18 @@ header,
 
 .card-product__discr_price {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-start;
 }
 
 .price {
-  font-family: "Prosto One", sans-serif;
-  font-size: 46px;
-  line-height: normal;
-  font-weight: 800;
-  margin-right: 20px;
+  font-family: "Oswald", sans-serif;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 600;
+  margin-right: 8px;
 }
 
 .ruble_sign_icon {
-  height: 32px;
+  height: 28px;
 }/*# sourceMappingURL=project-style.css.map */
