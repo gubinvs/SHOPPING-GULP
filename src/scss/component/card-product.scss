@@ -16,12 +16,12 @@
     border-bottom: 0.5px solid $colorBackgroundSearchHover;
 }
 
-//-- Для каждого четвертого элемента
+//-- Для каждого третьего элемента
 .card-product:nth-child(3n) {
     border-right: 0px;
 }
 
-//-- Для последних четырех элементов
+//-- Для последних трех элементов
 .card-product:nth-last-child(-n+3) {
     border-bottom: 0px;
 }
