@@ -110,6 +110,9 @@ input {
     scroll-behavior: auto !important;
   }
 } 
+::-moz-placeholder {
+  font-size: 16px;
+} 
 ::placeholder {
   font-size: 16px;
 }
@@ -212,6 +215,9 @@ button {
   .container {
     width: 360px;
   }
+}
+::-moz-placeholder {
+  color: #ffffff;
 }
 ::placeholder {
   color: #ffffff;
@@ -608,7 +614,10 @@ header,
   }
 }
 @media only screen and (max-width: 480px) {
+  ::-moz-placeholder {
+    font-size: 16px;
+  }
   ::placeholder {
     font-size: 16px;
   }
-}
+}/*# sourceMappingURL=project-style.css.map */
