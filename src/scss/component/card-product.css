@@ -4,13 +4,22 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
+  padding-bottom: 40px;
   width: 305px;
-  height: 400px;
+  height: 450px;
 }
 
-.card-product:nth-child(1) {
+.card-product {
   border-right: 0.5px solid #D9D9D9;
   border-bottom: 0.5px solid #D9D9D9;
+}
+
+.card-product:nth-child(3n) {
+  border-right: 0px;
+}
+
+.card-product:nth-last-child(-n+3) {
+  border-bottom: 0px;
 }
 
 .card-product__name {
@@ -29,12 +38,15 @@
 .card-product__name_vendor {
   text-align: center;
   margin-bottom: 4px;
+  font-size: 16px;
+  color: #514E49;
 }
 
 .card-product__name_title {
   text-align: center;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 600;
   color: #4E80B6;
 }
 
@@ -45,20 +57,92 @@
   width: 80%;
 }
 
+.card-product__discr_availability {
+  display: flex;
+}
+
+.availability__number {
+  padding-left: 20px;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #409738;
+  background-image: url(../../img/check.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.availability__time {
+  padding-left: 20px;
+  font-size: 12px;
+  color: #409738;
+  background-image: url(../../img/local_shipping.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
 .card-product__discr_price {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+  margin-bottom: 20px;
 }
 
 .price {
   font-family: "Oswald", sans-serif;
-  font-size: 38px;
-  line-height: 38px;
+  font-size: 32px;
+  line-height: 32px;
   font-weight: 600;
+  color: #514E49;
   margin-right: 8px;
 }
 
 .ruble_sign_icon {
   height: 28px;
-}/*# sourceMappingURL=card-product.css.map */
+}
+
+.card-product__discr_basket {
+  display: flex;
+}
+
+.basket__decrement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 30px;
+  background-color: #EDEDED;
+  border: 0.5px solid #EDEDED;
+  color: #514E49;
+  cursor: pointer;
+}
+
+.basket__position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 30px;
+  border: 0.5px solid #EDEDED;
+  color: #514E49;
+}
+
+.basket__increment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 30px;
+  background-color: #EDEDED;
+  border: 0.5px solid #EDEDED;
+  color: #514E49;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.basket__button {
+  width: 100px;
+  height: 30px;
+  background-color: #EDEDED;
+  color: #514E49;
+  cursor: pointer;
+}
