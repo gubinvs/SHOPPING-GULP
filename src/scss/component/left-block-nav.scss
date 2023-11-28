@@ -8,3 +8,37 @@
     margin-right: 20px;
     border: 0.5px solid $colorBackgroundSearchHover;
 }
+
+.section-manufacturer__item {
+    display: flex;
+    padding-left: 20px;
+}
+
+.section-manufacturer__item_title {
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 500;
+    background-color: $colorBackgroundSearch;
+    color: $colorTextPriceCard;
+    margin-bottom: 10px;
+}
+
+.manufacturer-item {
+    display: flex;
+}
+
+.section-manufacturer__item_brand {
+    overflow: auto;
+}
+
+.manufacturer-item__check {
+    margin-right: 10px;
+}
+
+.manufacturer-item__parametr {
+    font-size: 16px;
+} 
