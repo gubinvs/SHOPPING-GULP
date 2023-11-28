@@ -49,6 +49,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: $font-textBady;
+  font-style: normal;
+  background-color: $colorBackgroundBody;
 }
 
 header {
@@ -65,8 +67,6 @@ main {
   font-size: 0.1px;
   line-height: 0.1px;
 }
-
-
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
 ul[class],
@@ -124,12 +124,6 @@ input {
 // -- основные стилы проекта
 ::placeholder {
   font-size: 16px;
-}
-
-body {
-  background-color: $colorBackgroundBody;
-  font-family: $font-textBady;
-  font-style: normal;
 }
 
 section,
@@ -196,6 +190,16 @@ button {
   line-height: normal;
 }
 
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
 @media only screen and (max-width: 1280px) {
   .container {
     width: 1000px;
@@ -237,6 +241,8 @@ button {
 @import 'header.scss';
 @import 'component/block-card-product.scss';
 @import 'component/card-product.scss';
+@import 'component/left-block-nav.scss';
+
 
 
 
