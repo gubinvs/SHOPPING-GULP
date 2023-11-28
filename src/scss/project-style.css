@@ -646,10 +646,6 @@ header,
   display: flex;
 }
 
-.card-product__name_img {
-  display: block;
-}
-
 .card-product,
 .card-product__discr {
   flex-direction: column;
