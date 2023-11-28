@@ -1,11 +1,13 @@
 .card-product,
 .card-product__discr,
-.card-product__discr_availability {
+.card-product__discr_availability,
+.card-product__name {
   display: flex;
 }
 
 .card-product,
-.card-product__discr {
+.card-product__discr,
+.card-product__name {
   flex-direction: column;
 }
 
@@ -13,7 +15,8 @@
   align-items: flex-start;
 }
 
-.card-product {
+.card-product,
+.card-product__name {
   align-items: center;
 }
 
