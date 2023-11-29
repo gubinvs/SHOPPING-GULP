@@ -1,7 +1,7 @@
 @import 'variables.scss';
 
 ::placeholder {
-    color: $colorBackgroundBody;
+    color: $colorText;
 }
 
 .header__container {
@@ -176,12 +176,11 @@ header,
 
 .header-nav__item:hover,
 .header-nav__item_company:hover,
-#catalog-block:hover {
+#catalog-block {
     color: $colorText;
 }
 
-.control-list__item_discr,
-#catalog-block {
+.control-list__item_discr {
     color: $colorHeaderNavLink;
 }
 

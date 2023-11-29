@@ -13,11 +13,11 @@
     display: flex;
     flex-direction: column;
     height: 250px;
-    border-bottom: 0.5px solid $colorBackgroundSearch;
+    border-bottom: 0.5px solid $colorBackgroundTitle;
    
 }
 
-.section-manufacturer__title {
+.lbn-section-title {
     display: flex;
     align-items: center;
     width: 100%;
@@ -26,29 +26,29 @@
     font-size: 18px;
     line-height: normal;
     font-weight: 500;
-    background-color: $colorBackgroundSearch;
+    background-color: $colorBackgroundTitle;
     color: $colorTextPriceCard;
     margin-bottom: 10px;
 }
 
-.section-manufacturer__list {
+.lbn-section-list {
     display: flex;
     flex-direction: column;
     overflow: auto;
 }
 
-.section-manufacturer__item {
+.lbn-section-item {
     padding-left: 20px;  
 }
 
-.manufacturer-item {
+.form-item {
     display: flex;
 }
 
-.manufacturer-item__check {
+.lbn-section-item__check {
     margin-right: 10px;
 }
 
-.manufacturer-item__parametr {
+.lbn-section-item__parametr {
     font-size: 16px;
 } 

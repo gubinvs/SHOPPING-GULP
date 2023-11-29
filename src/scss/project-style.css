@@ -223,10 +223,10 @@ button {
   }
 }
 ::-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 ::placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 
 .header__container {
@@ -401,12 +401,11 @@ header,
 
 .header-nav__item:hover,
 .header-nav__item_company:hover,
-#catalog-block:hover {
+#catalog-block {
   color: #000000;
 }
 
-.control-list__item_discr,
-#catalog-block {
+.control-list__item_discr {
   color: #696D70;
 }
 
@@ -687,7 +686,7 @@ header,
 }
 
 .card-product__name_title {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .card-product__name,
@@ -774,8 +773,8 @@ header,
   justify-content: center;
   width: 15px;
   height: 30px;
-  background-color: #EF9537;
-  border: 0.5px solid #EF9537;
+  background-color: #EDEDED;
+  border: 0.5px solid #EDEDED;
   color: #514E49;
   cursor: pointer;
 }
@@ -786,7 +785,7 @@ header,
   justify-content: center;
   width: 45px;
   height: 30px;
-  border: 0.5px solid #EF9537;
+  border: 0.5px solid #EDEDED;
   color: #514E49;
 }
 
@@ -796,8 +795,8 @@ header,
   justify-content: center;
   width: 15px;
   height: 30px;
-  background-color: #EF9537;
-  border: 0.5px solid #EF9537;
+  background-color: #EDEDED;
+  border: 0.5px solid #EDEDED;
   color: #514E49;
   margin-right: 20px;
   cursor: pointer;
@@ -806,7 +805,7 @@ header,
 .basket__button {
   width: 100px;
   height: 30px;
-  background-color: #EF9537;
+  background-color: #EDEDED;
   color: #514E49;
   cursor: pointer;
 }
@@ -823,10 +822,10 @@ header,
   display: flex;
   flex-direction: column;
   height: 250px;
-  border-bottom: 0.5px solid #EF9537;
+  border-bottom: 0.5px solid #EDEDED;
 }
 
-.section-manufacturer__title {
+.lbn-section-title {
   display: flex;
   align-items: center;
   width: 100%;
@@ -835,29 +834,29 @@ header,
   font-size: 18px;
   line-height: normal;
   font-weight: 500;
-  background-color: #EF9537;
+  background-color: #EDEDED;
   color: #514E49;
   margin-bottom: 10px;
 }
 
-.section-manufacturer__list {
+.lbn-section-list {
   display: flex;
   flex-direction: column;
   overflow: auto;
 }
 
-.section-manufacturer__item {
+.lbn-section-item {
   padding-left: 20px;
 }
 
-.manufacturer-item {
+.form-item {
   display: flex;
 }
 
-.manufacturer-item__check {
+.lbn-section-item__check {
   margin-right: 10px;
 }
 
-.manufacturer-item__parametr {
+.lbn-section-item__parametr {
   font-size: 16px;
 }/*# sourceMappingURL=project-style.css.map */

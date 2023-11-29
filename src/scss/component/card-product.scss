@@ -54,7 +54,7 @@
 }
 
 .card-product__name_title {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .card-product__name,
@@ -158,8 +158,8 @@
     justify-content: center;
     width: 15px;
     height: 30px;
-    background-color: $colorBackgroundSearch;
-    border: .5px solid $colorBackgroundSearch;
+    background-color: $colorBackgroundTitle;
+    border: .5px solid $colorBackgroundTitle;
     color: $colorTextPriceCard;
     cursor: pointer;
 }
@@ -170,7 +170,7 @@
     justify-content: center;
     width: 45px;
     height: 30px;
-    border: .5px solid $colorBackgroundSearch;
+    border: .5px solid $colorBackgroundTitle;
     color: $colorTextPriceCard;
 }
 
@@ -180,8 +180,8 @@
     justify-content: center;
     width: 15px;
     height: 30px;
-    background-color: $colorBackgroundSearch;
-    border: .5px solid $colorBackgroundSearch;
+    background-color: $colorBackgroundTitle;
+    border: .5px solid $colorBackgroundTitle;
     color: $colorTextPriceCard;
     margin-right: 20px;
     cursor: pointer;
@@ -190,7 +190,7 @@
 .basket__button {
     width: 100px;
     height: 30px;
-    background-color: $colorBackgroundSearch;
+    background-color: $colorBackgroundTitle;
     color: $colorTextPriceCard;
     cursor: pointer;
 }

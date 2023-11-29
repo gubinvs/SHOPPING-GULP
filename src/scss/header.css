@@ -1,9 +1,9 @@
 ::-moz-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 
 ::placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 
 .header__container {
@@ -178,12 +178,11 @@ header,
 
 .header-nav__item:hover,
 .header-nav__item_company:hover,
-#catalog-block:hover {
+#catalog-block {
   color: #000000;
 }
 
-.control-list__item_discr,
-#catalog-block {
+.control-list__item_discr {
   color: #696D70;
 }
 
@@ -214,7 +213,7 @@ header,
 .search-block__catalog,
 .search-block-form__text,
 .search-block-form__botton_submit {
-  background-color: #EDEDED;
+  background-color: #EF9537;
 }
 
 .search-block__catalog:hover,

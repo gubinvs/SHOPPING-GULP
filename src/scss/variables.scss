@@ -6,11 +6,13 @@ $font-price: 'Oswald', sans-serif;
 
 // -- Цветовая палитра проекта
 $colorText: #000000;
+$colorTextSearch: #C77B2B;             // --  Текст плейсхолдера
+$colorBackgroundSearch: #EF9537;       // --   цвет блоков меню и поиска
 $colorBackgroundBody: #ffffff;
-// $colorBackgroundSearch: #EDEDED;       // -- цвет блоков меню и поиска
-$colorBackgroundSearch: #EF9537;       // -- цвет блоков меню и поиска
-$colorBackgroundSearchHover: #D9D9D9;  // -- цвет блока при наведении курсора
-$colorBackgroundIconBasket: #409738;   // -- цвет кружечка с количеством позиций в корзине
-$colorHeaderNavLink: #696D70;          // --  цвет ссылок в меню навигации header
+$colorBackgroundTitle: #EDEDED;        // --    цвет блоков меню и поиска
+
+$colorBackgroundSearchHover: #D9D9D9;  // --   цвет блока при наведении курсора
+$colorBackgroundIconBasket: #409738;   // --   цвет кружечка с количеством позиций в корзине
+$colorHeaderNavLink: #696D70;          // --   цвет ссылок в меню навигации header
 $colorTextNameCard: #4E80B6;
 $colorTextPriceCard: #514E49;
