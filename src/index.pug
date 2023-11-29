@@ -4,9 +4,9 @@ extends doctypes.pug
 //- Изменил название страницы
 block doctype
     //- Описание страницы в head discription
-    - var contentDiscription = 'Комплектующие для средств автоматики';
+    - var contentDiscription = 'Комплексные поставки комплектующих для средств автоматизации';
     //- Наименование главной страницы
-    - var titleName = 'Интернет-магазин коплектующих для НКУ';
+    - var titleName = 'Компонент энергии - поставки комплектующих';
     //- Массив с путями к файлам со стилями
     - var stylePath = ['css/ip-style.css'];
     //-- указывает поисковому роботу адрес главной страницы среди группы страниц дублей
@@ -17,7 +17,7 @@ block doctype
 block content
     include html/header.pug 
     main
-        h1(class="visually-hidden h1-visually", style="visibility: hidden;").h1__visually Интернет-магазин комплектующих для средств автоматики
+        h1(class="visually-hidden h1-visually", style="visibility: hidden;").h1__visually Перечень комплектующих для средств автоматизации
         //-- Блок выдачи результатов запроса по номенклатуре комплектующих
         .container.flex-row
             include html/component/left-block-nav.pug 
