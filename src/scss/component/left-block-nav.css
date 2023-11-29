@@ -1,6 +1,8 @@
 .left-block-nav {
   min-width: 305px;
   max-width: 305px;
+  height: -moz-fit-content;
+  height: fit-content;
   margin-right: 20px;
   border: 0.5px solid #D9D9D9;
 }
@@ -45,6 +47,7 @@
 }
 
 .lbn-section-item__parametr {
+  padding-top: 5px;
   font-size: 16px;
 }
 

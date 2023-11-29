@@ -110,6 +110,14 @@ input {
   outline: none;
 }
 
+
+
+
+
+
+
+
+
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -242,6 +250,26 @@ button {
 @import 'component/block-card-product.scss';
 @import 'component/card-product.scss';
 @import 'component/left-block-nav.scss';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
