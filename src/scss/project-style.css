@@ -437,7 +437,7 @@ header,
 .search-block__catalog,
 .search-block-form__text,
 .search-block-form__botton_submit {
-  background-color: #EDEDED;
+  background-color: #EF9537;
 }
 
 .search-block__catalog:hover,
@@ -774,8 +774,8 @@ header,
   justify-content: center;
   width: 15px;
   height: 30px;
-  background-color: #EDEDED;
-  border: 0.5px solid #EDEDED;
+  background-color: #EF9537;
+  border: 0.5px solid #EF9537;
   color: #514E49;
   cursor: pointer;
 }
@@ -786,7 +786,7 @@ header,
   justify-content: center;
   width: 45px;
   height: 30px;
-  border: 0.5px solid #EDEDED;
+  border: 0.5px solid #EF9537;
   color: #514E49;
 }
 
@@ -796,8 +796,8 @@ header,
   justify-content: center;
   width: 15px;
   height: 30px;
-  background-color: #EDEDED;
-  border: 0.5px solid #EDEDED;
+  background-color: #EF9537;
+  border: 0.5px solid #EF9537;
   color: #514E49;
   margin-right: 20px;
   cursor: pointer;
@@ -806,7 +806,7 @@ header,
 .basket__button {
   width: 100px;
   height: 30px;
-  background-color: #EDEDED;
+  background-color: #EF9537;
   color: #514E49;
   cursor: pointer;
 }
@@ -823,7 +823,7 @@ header,
   display: flex;
   flex-direction: column;
   height: 250px;
-  border-bottom: 0.5px solid #EDEDED;
+  border-bottom: 0.5px solid #EF9537;
 }
 
 .section-manufacturer__title {
@@ -835,7 +835,7 @@ header,
   font-size: 18px;
   line-height: normal;
   font-weight: 500;
-  background-color: #EDEDED;
+  background-color: #EF9537;
   color: #514E49;
   margin-bottom: 10px;
 }
