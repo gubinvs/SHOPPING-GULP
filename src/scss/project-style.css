@@ -113,9 +113,6 @@ input {
     scroll-behavior: auto !important;
   }
 } 
-::-moz-placeholder {
-  font-size: 16px;
-} 
 ::placeholder {
   font-size: 16px;
 }
@@ -221,9 +218,6 @@ button {
   .container {
     width: 360px;
   }
-}
-::-moz-placeholder {
-  color: #000000;
 }
 ::placeholder {
   color: #000000;
@@ -619,9 +613,6 @@ header,
   }
 }
 @media only screen and (max-width: 480px) {
-  ::-moz-placeholder {
-    font-size: 16px;
-  }
   ::placeholder {
     font-size: 16px;
   }
@@ -813,7 +804,6 @@ header,
 .left-block-nav {
   min-width: 305px;
   max-width: 305px;
-  height: -moz-fit-content;
   height: fit-content;
   margin-right: 20px;
   border: 0.5px solid #D9D9D9;
@@ -878,4 +868,4 @@ header,
   font-weight: 500;
   background-color: #EDEDED;
   color: #514E49;
-}/*# sourceMappingURL=project-style.css.map */
+}
