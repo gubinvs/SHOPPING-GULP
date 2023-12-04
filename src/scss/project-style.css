@@ -869,3 +869,11 @@ header,
   background-color: #EDEDED;
   color: #514E49;
 }
+
+.discription-product-section__discription-product {
+  display: flex;
+}
+
+.characteristic-type-item {
+  display: flex;
+}
