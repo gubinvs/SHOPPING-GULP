@@ -2,9 +2,27 @@
 
 .discription-product-section__discription-product {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.discription-product-block {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .characteristic-type-item {
     display: flex;
 }
 
+.discription-product-section__title {
+    margin-bottom: 20px;
+}
+
+.characteristic__title {
+    margin-bottom: 8px;
+}
+
+.characteristic-type__name {
+    width: 300px;
+}
