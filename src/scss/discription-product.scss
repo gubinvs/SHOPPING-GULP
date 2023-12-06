@@ -23,6 +23,40 @@
     margin-bottom: 8px;
 }
 
+.characteristic-type-item {
+    margin-bottom: 4px;
+}
+
 .characteristic-type__name {
+    width: 230px;
+}
+
+.discription-product__characteristic {
+    border-right: 1px solid $colorTextPriceCard;
+}
+
+.discription-product__characteristic {
+    padding-right: 20px;
+}
+
+.bascket-block-item {
+    display: flex;
+}
+
+.bascket-block__name {
     width: 50%;
+}
+
+.bascket-block-item {
+    margin-bottom: 4px;
+}
+
+.bascket-block-list {
+    margin-bottom: 40px !important;
+}
+
+.characteristic__discr,
+.characteristic__title {
+    font-size: 22px;
+    font-weight: 300;
 }

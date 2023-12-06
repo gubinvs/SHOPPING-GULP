@@ -37,7 +37,8 @@
   padding-bottom: 40px;
 }
 
-.card-product__name_vendor {
+.card-product__name_vendor,
+.card-product__discr_availability {
   margin-bottom: 4px;
 }
 

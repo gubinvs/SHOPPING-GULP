@@ -22,44 +22,38 @@ section.discription-product-section
                         .characteristic-type__name Степень защиты
                         .characteristic-type__siscr IP20
                     li.characteristic-type-item
-                        .characteristic-type__name Модельный ряд
-                        .characteristic-type__siscr Acti 9
-                    li.characteristic-type-item
                         .characteristic-type__name Ток утечки
                         .characteristic-type__siscr 30 мА
                     li.characteristic-type-item
                         .characteristic-type__name Количество полюсов
-                        .characteristic-type__siscr 4 пол. 
+                        .characteristic-type__siscr 4
                     li.characteristic-type-item
-                        .characteristic-type__name Вес нетто
+                        .characteristic-type__name Масса нетто
                         .characteristic-type__siscr 0,3 кг.
                     li.characteristic-type-item
                         .characteristic-type__name Габарит без упаковки
                         .characteristic-type__siscr 91 х 135 х 73.5 мм
         .discription-product__bascket-block
             img(src="../img/scneider_logo.jpg", alt="Schneider Electric").img-brend
-            ul.characteristic-type-list 
-                li.characteristic-type-item
-                    .characteristic-type__name Наличие:
-                    .characteristic-type__siscr В наличие
-                li.characteristic-type-item
-                    .characteristic-type__name Артикул:
-                    .characteristic-type__siscr A9V41463
-                li.characteristic-type-item
-                    .characteristic-type__name Серия:
-                    .characteristic-type__siscr  Acti 9
-                .card-product__discr
-                    .card-product__discr_availability
-                        .availability__number 999 шт.
-                        .availability__time 5-12 нед.
-                    .card-product__discr_price 
-                        .price 25 000
-                        img(src="../../img/ruble_sign_icon.svg", alt="Обозначение валюты рубль").ruble_sign_icon
-                    form.card-product__discr_basket
-                        .basket__decrement -
-                        .basket__position 999
-                        .basket__increment +
-                        button.basket__button В корзину
+            ul.bascket-block-list 
+                li.bascket-block-item
+                    .bascket-block__name Артикул:
+                    .bascket-block__siscr A9V41463
+                li.bascket-block-item
+                    .bascket-block__name Серия:
+                    .bascket-block__siscr  Acti 9
+            .card-product__discr
+                .card-product__discr_availability
+                    .availability__number 999 шт.
+                    .availability__time 5-12 нед.
+                .card-product__discr_price 
+                    .price 25 000
+                    img(src="../../img/ruble_sign_icon.svg", alt="Обозначение валюты рубль").ruble_sign_icon
+                form.card-product__discr_basket
+                    .basket__decrement -
+                    .basket__position 999
+                    .basket__increment +
+                    button.basket__button В корзину
     h3.characteristic__title Описание:
     .characteristic__discr Данный блок не является самостоятельным устройством и не может быть использован 
         | с автоматическими выключателями других серий. В сочетании с автоматическим выключателем iC60, 
