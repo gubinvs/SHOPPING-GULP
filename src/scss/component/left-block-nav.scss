@@ -72,3 +72,14 @@
     background-color: $colorBackgroundTitle;
     color: $colorTextPriceCard;
 }
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .left-block-nav {
+        min-width: 294px;
+        max-width: 294px;
+    }
+
+}

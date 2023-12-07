@@ -113,6 +113,9 @@ input {
     scroll-behavior: auto !important;
   }
 } 
+::-moz-placeholder {
+  font-size: 16px;
+} 
 ::placeholder {
   font-size: 16px;
 }
@@ -218,6 +221,9 @@ button {
   .container {
     width: 360px;
   }
+}
+::-moz-placeholder {
+  color: #000000;
 }
 ::placeholder {
   color: #000000;
@@ -617,6 +623,9 @@ header,
   }
 }
 @media only screen and (max-width: 480px) {
+  ::-moz-placeholder {
+    font-size: 16px;
+  }
   ::placeholder {
     font-size: 16px;
   }
@@ -699,6 +708,7 @@ header,
   height: 150px;
 }
 
+/* --Стилизация бордюра у карточки */
 .card-product {
   border-right: 0.5px solid #D9D9D9;
   border-bottom: 0.5px solid #D9D9D9;
@@ -806,9 +816,27 @@ header,
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1280px) {
+  /* Стилизация бордюра у карточки */
+  /* Возвращаю бордюры карточкам, которые изначально отсутствовали */
+  .card-product:nth-child(3n) {
+    border-right: 0.5px solid #D9D9D9;
+  }
+  .card-product:nth-last-child(-n+3) {
+    border-bottom: 0.5px solid #D9D9D9;
+  }
+  .card-product:nth-child(2n),
+  .card-product:last-of-type {
+    border-right: 0px;
+  }
+  .card-product:nth-last-child(-n+2) {
+    border-bottom: 0px;
+  }
+}
 .left-block-nav {
   min-width: 305px;
   max-width: 305px;
+  height: -moz-fit-content;
   height: fit-content;
   margin-right: 20px;
   border: 0.5px solid #D9D9D9;
@@ -875,6 +903,12 @@ header,
   color: #514E49;
 }
 
+@media only screen and (max-width: 1024px) {
+  .left-block-nav {
+    min-width: 294px;
+    max-width: 294px;
+  }
+}
 .discription-product-section__discription-product {
   display: flex;
   justify-content: space-between;
@@ -934,4 +968,4 @@ header,
 .characteristic__title {
   font-size: 22px;
   font-weight: 300;
-}
+}/*# sourceMappingURL=project-style.css.map */
