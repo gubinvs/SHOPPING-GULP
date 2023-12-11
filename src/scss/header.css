@@ -1,3 +1,7 @@
+::-moz-placeholder {
+  color: #000000;
+}
+
 ::placeholder {
   color: #000000;
 }
@@ -396,7 +400,10 @@ header,
   }
 }
 @media only screen and (max-width: 480px) {
+  ::-moz-placeholder {
+    font-size: 16px;
+  }
   ::placeholder {
     font-size: 16px;
   }
-}
+}/*# sourceMappingURL=header.css.map */
