@@ -893,6 +893,10 @@ header,
   color: #514E49;
 }
 
+.button-search:hover {
+  background-color: #EF9537;
+}
+
 @media only screen and (max-width: 1024px) {
   .left-block-nav {
     min-width: 294px;
