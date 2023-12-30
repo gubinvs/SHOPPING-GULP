@@ -351,6 +351,11 @@ header,
         width: 717px;
     }
 
+    .search-block__catalog,
+    .search-block__catalog:hover {
+        background-position: left 8px center;
+    }
+
     // #catalog-list {
     //     top: 190px;
     //     left: 0px;
@@ -378,15 +383,19 @@ header,
     // }
 }
 
-
-
-
-
 @media only screen and (max-width: 960px) {
+    .search-block-list,
+    .search-block__catalog {
+        width: 193px;
+        font-size: 18px;
+        padding-left: 44px;
+    }
+
+    .search-block__form {
+        width: 597px;
+    }
 
 }
-
-
 
 
 

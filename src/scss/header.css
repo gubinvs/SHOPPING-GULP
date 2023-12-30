@@ -343,4 +343,19 @@ header,
   .search-block__form {
     width: 717px;
   }
+  .search-block__catalog,
+  .search-block__catalog:hover {
+    background-position: left 8px center;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .search-block-list,
+  .search-block__catalog {
+    width: 193px;
+    font-size: 18px;
+    padding-left: 44px;
+  }
+  .search-block__form {
+    width: 597px;
+  }
 }
