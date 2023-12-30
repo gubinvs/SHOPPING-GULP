@@ -811,6 +811,9 @@ header,
   }
 }
 @media only screen and (max-width: 960px) {
+  .card-product {
+    width: 293px;
+  }
   /* стилизация при расположении по две карточки */
   /* Стилизация бордюра у карточки */
   /* Возвращаю бордюры карточкам, которые изначально отсутствовали */
@@ -911,6 +914,15 @@ header,
   .left-block-nav {
     min-width: 233px;
     max-width: 233px;
+  }
+  .lbn-section-item__parametr {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .left-block-nav {
+    min-width: 193px;
+    max-width: 193px;
   }
   .lbn-section-item__parametr {
     font-size: 14px;
