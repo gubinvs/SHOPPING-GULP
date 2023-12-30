@@ -219,31 +219,29 @@
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 960px) {
+    /* стилизация при расположении по две карточки */
+    /* Стилизация бордюра у карточки */
 
+    /* Возвращаю бордюры карточкам, которые изначально отсутствовали */
+    //-- Для каждого третьего элемента
+    .card-product:nth-child(3n) {
+        border-right: 0.5px solid $colorBackgroundSearchHover;
+    }
+
+    //-- Для последних трех элементов
+    .card-product:nth-last-child(-n+3) {
+        border-bottom: 0.5px solid $colorBackgroundSearchHover;
+    }
+
+    //-- Для каждого второго элемента
+    .card-product:nth-child(2n),
+    .card-product:last-of-type {
+        border-right: 0px;
+    }
+
+    //-- Для последних двух элементов
+    .card-product:nth-last-child(-n+2) {
+        border-bottom: 0px;
+    }  
 }
-
-/* стилизация при расположении по две карточки */
-// /* Стилизация бордюра у карточки */
-
-// /* Возвращаю бордюры карточкам, которые изначально отсутствовали */
-// //-- Для каждого третьего элемента
-// .card-product:nth-child(3n) {
-//     border-right: 0.5px solid $colorBackgroundSearchHover;
-// }
-
-// //-- Для последних трех элементов
-// .card-product:nth-last-child(-n+3) {
-//     border-bottom: 0.5px solid $colorBackgroundSearchHover;
-// }
-
-// //-- Для каждого второго элемента
-// .card-product:nth-child(2n),
-// .card-product:last-of-type {
-//     border-right: 0px;
-// }
-
-// //-- Для последних двух элементов
-// .card-product:nth-last-child(-n+2) {
-//     border-bottom: 0px;
-// }  
