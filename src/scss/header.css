@@ -336,9 +336,11 @@ header,
 @media only screen and (max-width: 1024px) {
   .search-block-list,
   .search-block__catalog {
-    width: 287px;
+    width: 233px;
+    font-size: 20px;
+    padding-left: 62px;
   }
   .search-block__form {
-    width: 662px;
+    width: 717px;
   }
 }
