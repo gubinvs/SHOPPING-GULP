@@ -355,32 +355,6 @@ header,
     .search-block__catalog:hover {
         background-position: left 8px center;
     }
-
-    // #catalog-list {
-    //     top: 190px;
-    //     left: 0px;
-    // }
-
-    // .logo {
-    //     width: 320px;
-    // }
-
-    // .search-block-list,
-    // .search-block__catalog {
-    //     // width: 294px;
-    //     width: 287px;
-    // }
-
-    // .search-block-form__text {
-    //     // -- длина input минус ширина кнопок
-    //     // width: calc(496px - 20px - 40px);
-    //     padding-right: 10px;
-    //     padding-left: 10px;
-    // }
-
-    // .header-nav__item_company {
-    //     display: none;
-    // }
 }
 
 @media only screen and (max-width: 960px) {
@@ -397,61 +371,19 @@ header,
 
 }
 
-
-
 @media only screen and (max-width: 800px) {
-    // #catalog-list {
-    //     top: 245px;
-    //     left: 0px;
-    // }
+    .search-block-list,
+    .search-block__catalog {
+        width: 208px;
+        font-size: 18px;
+        padding-left: 50px;
+    }
 
-    // .search-block {
-    //     flex-direction: column-reverse;
-    // }
+    .search-block__form {
+        width: 424px;
+    }
 
-    // .search-block__catalog,
-    // .search-block-form__text {
-    //     width: 100%;
-    //     height: 50px;
-    // }   
-    
-    // .search-block__form {
-    //     margin-bottom: 8px;
-    // }
-
-    // #catalog-list {
-    //     flex-direction: row;
-    // }
-}
-
-@media only screen and (max-width: 640px) {
-    // #catalog-list {
-    //     top: 366px;
-    //     left: 0px;
-    // }
-    
-    // .control-block,
-    // .header-nav {
-    //     flex-direction: column;
-    // }
-
-    // .control-block {
-    //     align-items: center;
-    // }
-
-    // .header-nav,
-    // .header-nav__list:not(:last-of-type) {
-    //     margin-bottom: 20px;
-    // }
-
-    // .logo {
-    //     width: 320px;
-    //     margin-bottom: 20px;
-    // }
-}
-
-@media only screen and (max-width: 480px) {
-    // ::placeholder {
-    //     font-size: 16px;
-    // }
+    .header-nav__item_company {
+        display: none;
+    }
 }

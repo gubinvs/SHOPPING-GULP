@@ -94,6 +94,10 @@
 
     .lbn-section-item__parametr {
         font-size: 14px;
+    }    
+
+    .lbn-section-item {
+        padding-left: 8px;
     }
 
 }
@@ -104,8 +108,12 @@
         max-width: 193px;
     }
 
-    .lbn-section-item__parametr {
-        font-size: 14px;
-    }
 
+}
+
+@media only screen and (max-width: 800px) {
+    .left-block-nav {
+        min-width: 208px;
+        max-width: 208px;
+    }
 }

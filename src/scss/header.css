@@ -359,3 +359,17 @@ header,
     width: 597px;
   }
 }
+@media only screen and (max-width: 800px) {
+  .search-block-list,
+  .search-block__catalog {
+    width: 208px;
+    font-size: 18px;
+    padding-left: 50px;
+  }
+  .search-block__form {
+    width: 424px;
+  }
+  .header-nav__item_company {
+    display: none;
+  }
+}
