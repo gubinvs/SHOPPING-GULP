@@ -188,6 +188,22 @@ button {
   flex-direction: column;
 }
 
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
 @media only screen and (max-width: 1280px) {
   .container {
     width: 1000px;
@@ -776,6 +792,10 @@ header,
   cursor: pointer;
 }
 
+.basket__decrement:hover {
+  background-color: #EF9537;
+}
+
 .basket__position {
   display: flex;
   align-items: center;
@@ -799,12 +819,20 @@ header,
   cursor: pointer;
 }
 
+.basket__increment:hover {
+  background-color: #EF9537;
+}
+
 .basket__button {
   width: 100px;
   height: 30px;
   background-color: #EDEDED;
   color: #514E49;
   cursor: pointer;
+}
+
+.basket__button:hover {
+  background-color: #EF9537;
 }
 
 @media only screen and (max-width: 1280px) {

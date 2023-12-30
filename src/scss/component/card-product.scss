@@ -162,6 +162,10 @@
     cursor: pointer;
 }
 
+.basket__decrement:hover {
+    background-color: $colorBackgroundSearch;
+}
+
 .basket__position {
     display: flex;
     align-items: center;
@@ -185,12 +189,20 @@
     cursor: pointer;
 }
 
+.basket__increment:hover {
+    background-color: $colorBackgroundSearch;
+}
+
 .basket__button {
     width: 100px;
     height: 30px;
     background-color: $colorBackgroundTitle;
     color: $colorTextPriceCard;
     cursor: pointer;
+}
+
+.basket__button:hover {
+    background-color: $colorBackgroundSearch;
 }
 
 @media only screen and (max-width: 1280px) {
