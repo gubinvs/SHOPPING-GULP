@@ -206,33 +206,44 @@
 }
 
 @media only screen and (max-width: 1280px) {
-    /* Стилизация бордюра у карточки */
-
-    /* Возвращаю бордюры карточкам, которые изначально отсутствовали */
-    //-- Для каждого третьего элемента
-    .card-product:nth-child(3n) {
-        border-right: 0.5px solid $colorBackgroundSearchHover;
-    }
-    
-    //-- Для последних трех элементов
-    .card-product:nth-last-child(-n+3) {
-        border-bottom: 0.5px solid $colorBackgroundSearchHover;
+    .card-product {
+        width: 223px;
     }
 
-    //-- Для каждого второго элемента
-    .card-product:nth-child(2n),
-    .card-product:last-of-type {
-        border-right: 0px;
+    .basket__increment {
+        margin-right: 10px;
     }
 
-    //-- Для последних двух элементов
-    .card-product:nth-last-child(-n+2) {
-        border-bottom: 0px;
-    }  
+    .basket__button {
+        width: 90px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
 
-
-
 }
+
+/* стилизация при расположении по две карточки */
+// /* Стилизация бордюра у карточки */
+
+// /* Возвращаю бордюры карточкам, которые изначально отсутствовали */
+// //-- Для каждого третьего элемента
+// .card-product:nth-child(3n) {
+//     border-right: 0.5px solid $colorBackgroundSearchHover;
+// }
+
+// //-- Для последних трех элементов
+// .card-product:nth-last-child(-n+3) {
+//     border-bottom: 0.5px solid $colorBackgroundSearchHover;
+// }
+
+// //-- Для каждого второго элемента
+// .card-product:nth-child(2n),
+// .card-product:last-of-type {
+//     border-right: 0px;
+// }
+
+// //-- Для последних двух элементов
+// .card-product:nth-last-child(-n+2) {
+//     border-bottom: 0px;
+// }  

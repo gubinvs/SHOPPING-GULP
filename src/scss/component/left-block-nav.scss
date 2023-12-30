@@ -79,7 +79,6 @@
 
 
 @media only screen and (max-width: 1280px) {
-
     .left-block-nav {
         min-width: 301px;
         max-width: 301px;
@@ -88,6 +87,13 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .left-block-nav {
+        min-width: 233px;
+        max-width: 233px;
+    }
 
+    .lbn-section-item__parametr {
+        font-size: 14px;
+    }
 
 }

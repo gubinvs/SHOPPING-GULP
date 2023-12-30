@@ -340,18 +340,16 @@ header,
 }
 
 @media only screen and (max-width: 1024px) {  
-    // .search-block-list,
-    // .search-block__catalog {
-    //     width: 233px;
-    //     font-size: 20px;
-    //     padding-left: 62px;
-    // }
+    .search-block-list,
+    .search-block__catalog {
+        width: 233px;
+        font-size: 20px;
+        padding-left: 62px;
+    }
 
-    // .search-block__form {
-    //     width: 717px;
-    // }
-
-
+    .search-block__form {
+        width: 717px;
+    }
 
     // #catalog-list {
     //     top: 190px;
