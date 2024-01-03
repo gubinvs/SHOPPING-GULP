@@ -957,6 +957,7 @@ header,
 
 .discription-product-section__title {
   margin-bottom: 20px;
+  font-size: 34px;
 }
 
 .characteristic__title {
@@ -999,4 +1000,5 @@ header,
 .characteristic__title {
   font-size: 22px;
   font-weight: 300;
+  color: #696D70;
 }
