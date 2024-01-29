@@ -13,7 +13,7 @@ export const html = () => {
                     massege: "Error: <%= error.massege %"
                 }))
         )
-        // .pipe(fileinclude())                             // Если работаем с pug файлами, то этот плагин не нужен
+        // .pipe(fileinclude())       // Если работаем с pug файлами, то этот плагин не нужен
         .pipe(pug({
             // Сжатие  HTML файлов
             pretty: true,
