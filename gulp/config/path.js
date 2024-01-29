@@ -16,10 +16,11 @@ export const path = {
         html: `${buildFolder}/`,                    // файлы html
         files: `${buildFolder}/files/`,              // остальные файлы
         fonts: `${buildFolder}/fonts/`,
-        php: `${buildFolder}/php/`,
+        phpModules: `${buildFolder}/phpModules/`,
+        php: `${buildFolder}/`,
         fonts: `${buildFolder}/fonts/`
     },
-    src: {                                          // какие файлы следует переносить при сборке проекта и куда
+    src: {    // какие файлы следует переносить при сборке проекта и куда
         js: `${srcFolder}/js/**/*.js`,
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
         svg: `${srcFolder}/img/**/*.svg`,
@@ -27,7 +28,8 @@ export const path = {
         pug: `${srcFolder}/*.pug`,                 
         // html: `${srcFolder}/*.html`,             // для работы без препроцессора pug
         files: `${srcFolder}/files/**/*.*`,
-        php: `${srcFolder}/php/**/*.php`,
+        phpModules: `${srcFolder}/phpModules/**/*.php`,
+        php: `${srcFolder}/*.php`,
         fonts: `${srcFolder}/fonts/**/*.*`
     },
     watch: {                                        // изменение каких файлов следует отслеживать
@@ -37,7 +39,8 @@ export const path = {
         pug: `${srcFolder}/**/*.pug`,              
         // html: `${srcFolder}/**/*.html`,          // для работы без препроцессора pug 
         files: `${srcFolder}/files/**/*.*`,
-        php: `${srcFolder}/php/**/*.php` 
+        phpModules: `${srcFolder}/phpModules/**/*.php`,
+        php: `${srcFolder}/**/*.php`
     },
     clean: buildFolder,                             // какую папку следует удалять
     buildFolder: buildFolder,                       // переменная с путем к папке для переноса файлов
